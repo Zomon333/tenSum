@@ -29,9 +29,9 @@ int generatePair(int pair)
 }
 
 //Formats the results to the desired notation
-std::string formatResult(int pair)
+string formatResult(int pair)
 {
-    return "["+std::to_string(pair)+","+std::to_string(generatePair(pair))+"]";
+    return "["+to_string(pair)+","+to_string(generatePair(pair))+"]";
 }
 
 //Shows the help menu as if -h or --help were called.
